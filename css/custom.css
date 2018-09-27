@@ -6,9 +6,18 @@
     --white: #F0F0F0;
     --grey: #E6E6E6;
 
-
     --separator-color: #DDD;
+}
 
-h1 h2 {
-
+.cd-header {
+    font-family: 'Anton', sans-serif;
+}
+h1.cd-header {
+    font-size: 64px;
+}
+h2.cd-header {
+    font-size: 48px;
+}
+.cd-body {
+    font-family: 'Abel', sans-serif;
 }
