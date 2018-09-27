@@ -3,7 +3,7 @@
     --orange: #EB9D3A;
     --green: #7CB06C;
     --blue: #00ABA9;
-    --white: #F0F0F0;
+    --light-grey: #F0F0F0;
     --grey: #E6E6E6;
 
     --separator-color: #DDD;
@@ -18,6 +18,36 @@ h1.cd-header {
 h2.cd-header {
     font-size: 48px;
 }
+.bg-cd {
+    background: var(--light-grey);
+}
 .cd-body {
     font-family: 'Abel', sans-serif;
+}
+.circle {
+    height: 250px;
+    max-height: 250px;
+    width: 250px;
+    max-width: 250px;
+    border-radius: 50%;
+    border: solid white 17px;
+    position: relative;
+}
+.c1 {
+    background: var(--red);
+}
+.c2 {
+    background: var(--orange);
+}
+.c3 {
+    background: var(--green);
+}
+.c4 {
+    background: var(--blue);
+}
+.circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
