@@ -18,19 +18,28 @@ h1.cd-header {
 h2.cd-header {
     font-size: 48px;
 }
+h3.cd-header {
+    font-size: 40px;
+}
+h4.cd-header {
+    font-size: 32px;
+}
+h5.cd-header {
+    font-size: 28px;
+}
 .bg-cd {
     background: var(--light-grey);
 }
 .cd-body {
     font-family: 'Abel', sans-serif;
+    font-size: 2em;
 }
 .circle {
-    height: 250px;
-    max-height: 250px;
-    width: 250px;
-    max-width: 250px;
+    box-sizing: border-box;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
-    border: solid white 17px;
+    border: solid white 12px;
     position: relative;
 }
 .c1 {
