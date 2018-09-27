@@ -59,4 +59,24 @@ h5.cd-header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+
+}
+.cd-img-main {
+    box-sizing: border-box;
+    border: solid var(--grey) 15px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.circle-badge {
+    box-sizing: border-box;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    position: relative;
+}
+.badge-text {
+    font-family: "Anton", sans-serif;
+    font-size: .75em;
 }
