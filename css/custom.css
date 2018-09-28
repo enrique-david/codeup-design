@@ -109,3 +109,14 @@ h6.cd-header {
     color: rgb(73	161	236);
     font-size: 1.25em;
 }
+.cd-logo {
+    object-fit: cover;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+}
+.cd-a-font {
+    font-family: "Abel", sans-serif;
+    color: #000;
+    text-decoration: none;
+}
