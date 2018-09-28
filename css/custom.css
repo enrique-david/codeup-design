@@ -68,7 +68,6 @@ h5.cd-header {
     border: solid var(--grey) 15px;
     border-radius: 10px;
     width: 100%;
-
 }
 .circle-badge {
     box-sizing: border-box;
