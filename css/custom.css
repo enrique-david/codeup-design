@@ -120,3 +120,27 @@ h6.cd-header {
     color: #000;
     text-decoration: none;
 }
+a.cd-a-font:hover {
+    text-decoration: none;
+    color: #000;
+}
+.cd-logo-text {
+    font-size: 2.5em;
+    position: relative;
+    top: 5px;
+}
+.cd-nav-links {
+    font-size: 1.55em;
+    position: relative;
+    top: -22px;
+}
+.bg-lgrey {
+    background: var(--light-grey);
+}
+.cd-nav {
+    height: 65px;
+    width: 100%;
+    background: #FFF;
+    position: absolute;
+    top: 28px;
+}
