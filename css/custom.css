@@ -144,3 +144,7 @@ a.cd-a-font:hover {
     position: absolute;
     top: 28px;
 }
+.cd-border {
+    border-bottom: solid var(--grey) 3px;
+
+}
