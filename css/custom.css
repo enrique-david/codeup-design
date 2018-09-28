@@ -59,7 +59,8 @@ h5.cd-header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
 
 }
 .cd-img-main {
@@ -77,6 +78,5 @@ h5.cd-header {
     position: relative;
 }
 .badge-text {
-    font-family: "Anton", sans-serif;
-    font-size: .35em;
+    font-size: 14px;
 }
