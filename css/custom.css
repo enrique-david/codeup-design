@@ -27,12 +27,15 @@ h4.cd-header {
 h5.cd-header {
     font-size: 28px;
 }
+h6.cd-header {
+    font-size: 22px;
+}
 .bg-cd {
     background: var(--light-grey);
 }
 .cd-body {
     font-family: 'Abel', sans-serif;
-    font-size: 1em;
+    font-size: .95em;
 }
 .circle {
     box-sizing: border-box;
@@ -71,11 +74,38 @@ h5.cd-header {
 }
 .circle-badge {
     box-sizing: border-box;
-    height: 20px;
-    width: 20px;
+    height: 14px;
+    width: 14px;
     border-radius: 50%;
     position: relative;
 }
 .badge-text {
-    font-size: 14px;
+    font-size: 10px;
+}
+.cd-side-img {
+    border: solid var(--grey) 5px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    height: 100%;
+    min-height: 55px;
+    width: auto;
+    max-width: 55px;
+    object-fit: cover;
+}
+.cd-side-text {
+    line-height: 27px;
+}
+.square {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+}
+.i-twitter {
+    color: rgb(73	161	236);
+    font-size: 1.25em;
 }
